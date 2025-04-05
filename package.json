@@ -1,0 +1,30 @@
+{
+  "name": "idle-obelisk-miner-cheat",
+  "version": "1.0.0",
+  "description": "Cheat engine for Idle Obelisk Miner",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [
+    "idle",
+    "obelisk",
+    "miner",
+    "cheat",
+    "engine"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "com.cheat.idleobeliskminer",
+    "productName": "Idle Obelisk Miner Cheat",
+    "win": {
+      "target": "portable"
+    }
+  }
+}
